@@ -6,6 +6,11 @@
 pip3 install -r requirements.txt 
 ```
 
+## Download data
+
+```
+git clone https://github.com/anminhhung/small_dog_cat_dataset
+```
 
 ## Run code 
 ```

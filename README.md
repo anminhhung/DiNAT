@@ -1,5 +1,5 @@
 # Image Classification
-
+Paper [Dilated Neighborhood Attention Transformer](https://arxiv.org/pdf/2209.15001.pdf)
 ## Requirements
 
 ```shell

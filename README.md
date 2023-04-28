@@ -31,8 +31,10 @@ fvcore==0.1.5.post20220305
 pyyaml==6.0
 ```
 
-## Models
+## Run code 
+```
+python train.py small_dog_cat_dataset --epochs 2 --batch-size 4 --model dinat_base
+```
 
-* [Neighborhood Attention Transformer (NAT)](NAT.md)
-
-* [Dilated Neighborhood Attention Transformer (DiNAT)](DiNAT.md)
+## Ref
+- [Neighborhood Attention Transformer (NAT)](https://github.com/SHI-Labs/Neighborhood-Attention-Transformer)

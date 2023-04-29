@@ -43,7 +43,8 @@ from timm.scheduler import *
 from timm.utils import ApexScaler, NativeScaler
 
 from nat import *
-from dinat import *
+# from dinat import *
+from my_model import *
 from dinats import *
 from isotropic import *
 from extras import get_gflops, get_mparams

@@ -112,8 +112,8 @@ def get_args_parser(parents=[], read_config=False):
                         help='path to class to idx mapping file (default: "")')
 
     # Model parameters
-    parser.add_argument('--model', default='nat_tiny', type=str, metavar='MODEL',
-                        help='Name of model to train (default: "nat_tiny"')
+    parser.add_argument('--model', default='dinat_base', type=str, metavar='MODEL',
+                        help='Name of model to train (default: "dinat_base"')
     parser.add_argument('--pretrained', action='store_true', default=False,
                         help='Start with pretrained version of specified network (if avail)')
     parser.add_argument('--initial-checkpoint', default='', type=str, metavar='PATH',

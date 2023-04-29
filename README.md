@@ -14,7 +14,7 @@ git clone https://github.com/anminhhung/small_dog_cat_dataset
 
 ## Run code 
 ```
-python train.py small_dog_cat_dataset --epochs 2 --batch-size 4 --model dinat_base
+python train.py small_dog_cat_dataset --epochs 2 --batch-size 4 
 ```
 
 ## Ref
